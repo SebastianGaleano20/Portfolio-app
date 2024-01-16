@@ -1,0 +1,14 @@
+.cont-txt-proyect{
+    text-align: center;
+    padding: 10px;
+    background-color: #07575b;
+    color: #c4dfe6;
+    font-size: 1em;
+}
+.cont-proyect{
+    margin: auto;
+    max-width: 50%;
+}
+.cont-proyect img{
+    max-width: 100%;
+}

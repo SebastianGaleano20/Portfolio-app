@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  min-height: 80px;
+  background-color: rgb(26, 25, 25);
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  max-height: 70px;
+}
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+  color: white;
+  padding: 0px 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+nav a:hover {
+  background-color: gray;
+  color: rgb(27, 27, 65);
+}
