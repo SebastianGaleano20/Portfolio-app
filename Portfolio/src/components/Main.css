@@ -8,6 +8,7 @@
 
 }
 .cont-img-sobremi img{
+  margin: 25px;
     max-width: 80%;
     border-radius: 50%;
 }

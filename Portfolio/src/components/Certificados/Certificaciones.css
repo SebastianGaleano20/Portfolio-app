@@ -1,11 +1,11 @@
-.container-certf{
-    
-    background-color: #c4dfe6;
-    text-align: center;
-    padding: 20px;
+.container-certf {
+  background-color: #2b535a;
+  text-align: center;
+  padding: 20px;
+  color: #dcf8fd;
 }
 
-.cont-titulos{
-    max-width: 100%;
-    display: flex;
+.cont-titulos {
+  max-width: 100%;
+  display: flex;
 }

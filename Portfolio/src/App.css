@@ -8,3 +8,6 @@
     font-family: "Sometype Mono", monospace;
     font-family: "Source Sans 3", sans-serif;
   }
+  .cont-middle{
+    display: flex;
+  }

@@ -4,7 +4,11 @@
     text-align: center;
     margin: 10px;
     background-color: #66a5ad;
+    
+    border-radius: 10px;
 }
 .cont-img img{
     max-width: 100%;
+    
+    border-radius: 10px;
 }

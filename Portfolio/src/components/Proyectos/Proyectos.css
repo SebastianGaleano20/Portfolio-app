@@ -4,11 +4,13 @@
     background-color: #07575b;
     color: #c4dfe6;
     font-size: 1em;
+    max-width: 50%;
 }
 .cont-proyect{
     margin: auto;
-    max-width: 50%;
+    max-width: 80%;
 }
 .cont-proyect img{
-    max-width: 100%;
+    border-radius: 10px;
+    max-width: 100%;    
 }
