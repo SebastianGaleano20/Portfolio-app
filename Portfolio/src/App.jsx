@@ -4,6 +4,7 @@ import { Main } from './components/Main'
 import { Certificaciones } from './components/Certificados/Certificaciones'
 import { Proyectos } from './components/Proyectos/Proyectos'
 import { Conocimientos } from './components/Conocimientos/Conocimientos'
+import { Contacto } from './components/Formulario/Contacto'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
    <Conocimientos />
     </div>
   <Certificaciones />
+  <Contacto />
     </>
   )
 }
