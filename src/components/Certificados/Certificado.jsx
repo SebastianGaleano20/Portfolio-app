@@ -1,6 +1,6 @@
 import c1 from "../../assets/C1.png";
-import c2 from "../../assets/C2.png";
-import c3 from "../../assets/C3.png";
+import c2 from "../../assets/c2.png";
+import c3 from "../../assets/c3.png";
 import "./Certificado.css";
 
 export function Certificado() {
@@ -17,14 +17,14 @@ export function Certificado() {
      <h1>Certificacion Front-End</h1>
      <h3>Argentina Programa 4.0</h3>
      <div className="cont-img">
-       <img src={c2} alt="c1" />
+       <img src={c2} alt="c2" />
      </div>
    </div>
     <div className="cont-cert">
     <h1>Certificacion ReactJS</h1>
     <h3>Argentina Programa 4.0</h3>
     <div className="cont-img">
-      <img src={c3} alt="c1" />
+      <img src={c3} alt="c3" />
     </div>
   </div>
   </>
