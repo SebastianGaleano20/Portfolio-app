@@ -28,6 +28,7 @@ export function Contacto() {
     <div className="contacto">
       <div className="container">
         <form ref={form} onSubmit={sendEmail}>
+          <h2>Enviar mensaje :</h2>
           <label>Nombre</label>
           <input type="text" name="user_name" />
           <label>Telefono</label>
@@ -40,12 +41,12 @@ export function Contacto() {
         </form>
       </div>
       <div className="cont-info">
-        <h1>Mas informacion</h1>
         <ul>
+          <h1>Repositorio git:</h1>
           <li>
             <i className="fa-brands fa-github">
               <a target="blank" href="https://github.com/SebastianGaleano20">
-                Repositorio Git
+                SebastianGaleano20
               </a>
             </i>
           </li>

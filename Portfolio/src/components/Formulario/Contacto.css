@@ -28,10 +28,12 @@
   flex: 1;
   max-width: 50%;
   background-color: #87a5b9;
+  text-align: center;
 }
 .cont-info ul{
     list-style: none;
 }
 .cont-info ul li{
-    margin: 20px;
+    margin-top: 20px;
+    font-size: 1.4em;
 }
