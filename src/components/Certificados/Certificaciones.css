@@ -9,3 +9,14 @@
   max-width: 100%;
   display: flex;
 }
+
+@media only screen and (max-width: 600px){
+  .container-certf{
+    max-width: 100%;
+    margin: auto;
+  }
+  .cont-titulos{
+    max-width: 100%;
+    display: flex;
+  }
+}

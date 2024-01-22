@@ -1,32 +1,28 @@
-.contacto {
-  display: flex;
-}
+
 .container {
-  flex: 1;
   text-align: center;
-  max-width: 50%;
+  width: 100%;
 }
 .container form {
   width: 100%;
   color: white;
   background-color: #042841;
+  padding: 20px;
 }
 .container label,
 .container input,
 .container textarea {
   border-radius: 10px;
   display: block;
-  margin-bottom: 10px;
   margin: auto;
-  width: 60%;
+  width: 50%;
   padding: 10px;
 }
-#send {
-  margin-top: 10px;
+#send{
+  margin-top: 8px;
 }
 .cont-info {
-  flex: 1;
-  max-width: 50%;
+  max-width: 100%;
   background-color: #87a5b9;
   text-align: center;
 }
@@ -36,4 +32,25 @@
 .cont-info ul li{
     margin-top: 20px;
     font-size: 1.4em;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    text-align: center;
+  }
+  .container form{
+    max-width: 100%;
+  }
+  .container form input,
+  .container form textarea{
+    width: 90%;
+  }
+  .cont-info{
+    max-width: 100%;
+    font-size: 0.8em;
+  }
+  .cont-info ul, .cont-info ul li{
+    max-width: 100%;
+  }
 }

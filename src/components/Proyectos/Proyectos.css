@@ -14,3 +14,10 @@
     border-radius: 10px;
     max-width: 100%;    
 }
+
+@media only screen and (max-width: 600px) {
+    .cont-txt-proyect{
+        max-width: 50%;
+        font-size: 0.8em;
+    }
+  };

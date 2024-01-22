@@ -44,11 +44,9 @@ export function Contacto() {
         <ul>
           <h1>Repositorio git:</h1>
           <li>
-            <i className="fa-brands fa-github">
-              <a target="blank" href="https://github.com/SebastianGaleano20">
+              <a target="blank" href="https://github.com/SebastianGaleano20"><i className="fa-brands fa-github"></i>
                 SebastianGaleano20
               </a>
-            </i>
           </li>
           <li>
             <i className="fa-solid fa-envelope"></i>

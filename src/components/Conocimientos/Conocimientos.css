@@ -14,3 +14,19 @@
   margin: 40px;
   max-width: 90%;
 }
+
+@media only screen and (max-width: 600px){
+  .cont-skills{
+    max-width: 50%;
+    font-size: 0.8em;
+  }
+  .cont-leng{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .cont-leng img{
+    max-width: 90%;
+    margin: auto;
+    display: block;
+  }
+}

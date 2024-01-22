@@ -14,14 +14,14 @@ export function Certificado() {
       </div>
     </div>
      <div className="cont-cert">
-     <h1>Certificacion Front-End</h1>
+     <h1>Front-End</h1><br />
      <h3>Argentina Programa 4.0</h3>
      <div className="cont-img">
        <img src={c2} alt="c2" />
      </div>
    </div>
     <div className="cont-cert">
-    <h1>Certificacion ReactJS</h1>
+    <h1>ReactJS</h1>
     <h3>Argentina Programa 4.0</h3>
     <div className="cont-img">
       <img src={c3} alt="c3" />
