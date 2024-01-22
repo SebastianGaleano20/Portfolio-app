@@ -12,10 +12,13 @@
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 200px) and (max-width: 600px){
     .cont-cert{
         max-width: 33%;;
         margin: auto;
-        font-size: 0.8em;
+        font-size: 0.5em;
+    }
+    .cont-img img{
+        max-width: 100%;
     }
 }

@@ -19,7 +19,7 @@
   font-size: 1.3em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 200px) and (max-width: 600px) {
   .cont-sobremi {
     max-width: 100%;
   }
@@ -28,13 +28,13 @@
     margin: auto;
   }
   .cont-img-sobremi img {
-    max-width: 50%;
-    margin: auto;
+    max-width: 70%;
+    margin: 10px auto;
     display: block; 
   }
   .cont-txt-sobremi {
     max-width: 50%;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
