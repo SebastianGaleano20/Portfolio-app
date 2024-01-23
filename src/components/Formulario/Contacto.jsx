@@ -3,7 +3,6 @@ import emailjs from "../../../node_modules/@emailjs/browser";
 import "./Contacto.css";
 export function Contacto() {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -17,6 +16,8 @@ export function Contacto() {
       .then(
         (result) => {
           console.log(result.text);
+          alert('Mensaje enviado');
+          
         },
         (error) => {
           console.log(error.text);
