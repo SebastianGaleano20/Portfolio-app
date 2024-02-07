@@ -1,7 +1,7 @@
 .containerc{
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas con tamaño igual */
-    grid-template-rows: 1fr 1fr;    /* Dos filas con tamaño igual */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr; 
     gap: 10px;   
 }
 

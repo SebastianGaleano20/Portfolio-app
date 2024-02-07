@@ -1,4 +1,4 @@
-.cont-skills {
+.cont-skills{
   background-color: #c4dfe6;
   text-align: center;
   max-width: 50%;
@@ -19,7 +19,7 @@
   .cont-skills{
     max-width: 50%;
     background-color: #c4dfe6;
-    font-size: 0.9em;
+    font-size: 0.em;
     padding: 10px;
   }
   .cont-leng{
