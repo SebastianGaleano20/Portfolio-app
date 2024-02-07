@@ -1,7 +1,7 @@
 import c1 from "../../assets/C1.png";
 import c2 from "../../assets/c2.png";
 import c3 from "../../assets/c3.png";
-import c4 from "../../assets/c4.png";
+import c4 from "../../assets/C4.png";
 import "./Certificado.css";
 
 export function Certificado() {
