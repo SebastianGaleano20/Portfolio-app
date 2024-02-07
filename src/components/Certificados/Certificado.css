@@ -1,22 +1,30 @@
+.containerc{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas con tamaño igual */
+    grid-template-rows: 1fr 1fr;    /* Dos filas con tamaño igual */
+    gap: 10px;   
+}
+
 .cont-cert{
-    max-width: 33%;
     padding: 20px;
     text-align: center;
-    margin: 10px auto;
     background-color: #66a5ad;
     border-radius: 10px;
 }
 .cont-img img{
-    max-width: 100%;
+    max-width: 80%;
     margin: 10px auto;
     border-radius: 10px;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 600px){
+    .containerc{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+    
     .cont-cert{
-        max-width: 33%;;
-        margin: auto;
-        font-size: 0.5em;
+        font-size: 1em;
     }
     .cont-img img{
         max-width: 100%;
