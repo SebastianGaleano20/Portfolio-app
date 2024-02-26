@@ -31,8 +31,8 @@ export function Certificado() {
         </div>
       </div>
       <div className="cont-cert">
-        <h1>ReactJS</h1>
-        <h3>Argentina Programa 4.0</h3>
+        <h1>FullStacks Avanzado</h1>
+        <h3>UTN</h3>
         <div className="cont-img">
           <img src={c4} alt="c4" />
         </div>
